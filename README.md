@@ -9,4 +9,9 @@ We would like you to extend this mini app and add the following:
 
 You shouldn't normally spend more then 3 hours on this. You're most welcome to use any resource to work on this; we only ask that you don't use outside help or just copy someone's code. Basic test coverage is required, you can see the example post controller spec is already there.
 
-If you can fork the repo and make your changes and then submit a pull request that would be epic!
+A preferred way for us to see your work would be for you to:
+
+-	Do a bare clone of the public repo.
+-	Create a new private one.
+-	Do a mirror push to the new private one.
+-	This is documented on GitHub: duplicating-a-repository

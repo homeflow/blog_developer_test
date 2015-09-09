@@ -1,4 +1,4 @@
 factory :post do |f|
-  f.title { Faker::Name.first_name }
-  f.body { Faker::Name.last_name }
+  f.title { Faker::Book.title }
+  f.body { Faker::Lorem.paragraph }
 end

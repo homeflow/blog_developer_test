@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :posts
+  resources :posts, only: [:index, :show]
+  
+  namespace :admin do
+    resources :posts
+  end
 
   root 'welcome#index'
 
